@@ -12,4 +12,9 @@ public class Statics {
 	public static final String ZIP = "Zarządzanie i inżynieria produkcji";
 	public static final String E = "Ekonomia";
 	public static final String IB = "International Business";
+	
+	public static final int FONT_SIZE = 60;
+	
+	public static final int X_SCALE = 1950;
+	public static final int Y_SCALE = 500;
 }
