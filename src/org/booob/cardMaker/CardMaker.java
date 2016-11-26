@@ -50,10 +50,10 @@ public class CardMaker {
 
 			imageProcessor.setTextInImage(card.getWydzial(), labels.get(0), FONT_SIZE);
 			imageProcessor.setTextInImage(card.getKierunek(), labels.get(1), FONT_SIZE);
-			imageProcessor.setTextInImage(card.getRok(), labels.get(2), FONT_SIZE);
-			imageProcessor.setTextInImage(card.getStopien(), labels.get(3), FONT_SIZE);
-			imageProcessor.setTextInImage(card.getGrupa(), labels.get(4), FONT_SIZE);
-			imageProcessor.setTextInImage(card.getRokRozpoczecia(), labels.get(5), FONT_SIZE);
+//			imageProcessor.setTextInImage(card.getRok(), labels.get(2), FONT_SIZE);
+			imageProcessor.setTextInImage(card.getStopien(), labels.get(2), FONT_SIZE);
+			imageProcessor.setTextInImage(card.getGrupa(), labels.get(3), FONT_SIZE);
+			imageProcessor.setTextInImage(card.getRokRozpoczecia(), labels.get(4), FONT_SIZE);
 
 			imageProcessor.disposeImage();
 

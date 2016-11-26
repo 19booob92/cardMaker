@@ -27,8 +27,8 @@ public class ImageUtils {
 	}
 
 	public static RoundedPoint getScaledPoint(Point pointToProcess) {
-		int scaledX = new Double(pointToProcess.getX()).intValue() + X_SCALE;
-		int scaledY = new Double(pointToProcess.getY()).intValue() + Y_SCALE;
+		int scaledX = new Double(pointToProcess.getX() * 2.).intValue();
+		int scaledY = new Double(pointToProcess.getY() * 2.).intValue() + 50;
 
 		return new RoundedPoint(scaledX, scaledY);
 	}

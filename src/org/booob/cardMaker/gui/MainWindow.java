@@ -50,6 +50,9 @@ public class MainWindow extends JFrame {
 
 	public MainWindow(String imagePath, String csvPath) {
 
+		this.imagePath = imagePath;
+		this.csvPath = csvPath;
+
 		setSize(1300, 600);
 		setVisible(true);
 		setLayout(new FlowLayout());
