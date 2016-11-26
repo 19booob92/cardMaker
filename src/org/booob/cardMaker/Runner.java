@@ -1,9 +1,5 @@
 package org.booob.cardMaker;
 
-import java.awt.Graphics2D;
-import java.awt.image.BufferedImage;
-
-import org.booob.cardMaker.dataLoader.GraphicsIO;
 import org.booob.cardMaker.gui.MainWindow;
 import org.booob.cardMaker.utils.Statics;
 
