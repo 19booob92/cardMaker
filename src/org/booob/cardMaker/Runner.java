@@ -1,5 +1,10 @@
 package org.booob.cardMaker;
 
+import java.awt.Graphics2D;
+import java.awt.image.BufferedImage;
+
+import org.booob.cardMaker.dataLoader.GraphicsIO;
+import org.booob.cardMaker.gui.MainWindow;
 import org.booob.cardMaker.utils.Statics;
 
 public class Runner {
@@ -9,7 +14,7 @@ public class Runner {
 
 	public static void main(String[] args) {
 
-		CardMaker cardMaker = new CardMaker(CSV_PATH, JPG_PATH);
-		cardMaker.makeCards();
+		MainWindow window = new MainWindow(JPG_PATH, CSV_PATH);
+		window.show();
 	}
 }
