@@ -1,14 +1,10 @@
 package org.booob.cardMaker.dataLoader;
 
-import java.awt.Graphics;
 import java.awt.image.BufferedImage;
-import java.awt.image.RenderedImage;
 import java.io.File;
 import java.io.IOException;
 
 import javax.imageio.ImageIO;
-
-import org.booob.cardMaker.utils.Statics;
 
 public class GraphicsIO {
 
@@ -28,7 +24,7 @@ public class GraphicsIO {
 
 	public static void writeImage(BufferedImage imageToSave, String path) {
 		try {
-			ImageIO.write(imageToSave, "bmp", new File(path));
+			ImageIO.write(imageToSave, "JPEG", new File(path));
 		} catch (IOException e) {
 			e.printStackTrace();
 		}

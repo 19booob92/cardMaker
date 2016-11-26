@@ -7,7 +7,7 @@ public class CreateOutputName {
 		builder.append(Statics.ROOT_PATH);
 		builder.append("output/output_");
 		builder.append(id);
-		builder.append(".bmp");
+		builder.append(".jpeg");
 		
 		return builder.toString();
 	}
