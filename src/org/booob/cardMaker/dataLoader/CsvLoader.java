@@ -8,7 +8,7 @@ import java.util.List;
 
 public class CsvLoader {
 	
-	private static final String DELIMETER = ",";
+	private static final String DELIMETER = ";";
 	
 	private static BufferedReader reader;
 	

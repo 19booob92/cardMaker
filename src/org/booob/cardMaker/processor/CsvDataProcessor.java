@@ -4,16 +4,15 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.booob.cardMaker.model.Card;
-import org.booob.cardMaker.model.Person;
 
 public class CsvDataProcessor {
 
-	private static final int WYDZIAL_ID = 0;
-	private static final int KIERUNEK_ID = 1;
-	private static final int ROK_ID = 2;
-	private static final int STOPIEN_ID = 3;
-	private static final int GRUPA_ID = 4;
-	private static final int ROK_ROZPOCZECIA = 5;
+	public static final int WYDZIAL_ID = 0;
+	public static final int KIERUNEK_ID = 1;
+	public static final int ROK_ID = 2;
+	public static final int STOPIEN_ID = 3;
+	public static final int GRUPA_ID = 4;
+	public static final int ROK_ROZPOCZECIA = 5;
 	// private static final int IMIE_I_NAZWISKO_ID = 0;
 
 	public static List<Card> processData(List<String[]> data) {

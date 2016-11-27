@@ -17,7 +17,6 @@ import javax.swing.JLabel;
 import javax.swing.JTextField;
 
 import org.booob.cardMaker.CardMaker;
-import org.booob.cardMaker.utils.CardsPrintMode;
 
 public class MainWindowController {
 

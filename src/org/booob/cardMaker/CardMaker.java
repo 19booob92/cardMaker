@@ -67,7 +67,7 @@ public class CardMaker {
 
 			imageProcessor.disposeImage();
 
-			GraphicsIO.writeImage(renderedImage, CreateOutputName.getOutputName(imageId));
+			GraphicsIO.writeImage(renderedImage, CreateOutputName.getOutputName(imageId, card.getKierunek()));
 
 			imageId++;
 		}

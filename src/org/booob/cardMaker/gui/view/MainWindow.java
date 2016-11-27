@@ -5,7 +5,6 @@ import static org.booob.cardMaker.utils.Statics.Y_SCALE;
 
 import java.awt.FlowLayout;
 import java.awt.Image;
-import java.awt.datatransfer.StringSelection;
 import java.awt.image.BufferedImage;
 import java.util.HashSet;
 import java.util.Set;
@@ -19,7 +18,6 @@ import javax.swing.JTextField;
 import org.booob.cardMaker.dataLoader.GraphicsIO;
 import org.booob.cardMaker.gui.controller.MainWindowController;
 
-import com.sun.xml.internal.ws.util.StringUtils;
 
 public class MainWindow extends JFrame {
 
