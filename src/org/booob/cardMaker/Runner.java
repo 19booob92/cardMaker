@@ -1,6 +1,6 @@
 package org.booob.cardMaker;
 
-import org.booob.cardMaker.gui.MainWindow;
+import org.booob.cardMaker.gui.view.MainWindow;
 import org.booob.cardMaker.utils.Statics;
 
 public class Runner {
